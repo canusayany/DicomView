@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Protocol>
+  <ProtocolName>Spiral Lcr</ProtocolName>
+  <ProtocolID>980bf41f-dd72-49eb-86fc-e68e7d82a4b4</ProtocolID>
+  <ExamPartID>9709f7ad-bb20-4266-a5ac-34003df4a978</ExamPartID>
+  <ScanMode>Spiral</ScanMode>
+  <PatientPosition>HFS</PatientPosition>
+  <BodySize>Adult</BodySize>
+  <Description>test</Description>
+  <IsTabletSuitable>0</IsTabletSuitable>
+  <IsEnhanced>0</IsEnhanced>
+  <IsEmergency>0</IsEmergency>
+  <IsFactory>1</IsFactory>
+  <IsValid>1</IsValid>
+  <ProtocolFamily>CEye24</ProtocolFamily>
+  <SortID>15</SortID>
+  <ScanEntry ScanType="Scan">
+    <ScanRange>Head</ScanRange>
+    <MA>60</MA>
+    <KV>80</KV>
+    <ScanDirection>Head-Foot</ScanDirection>
+    <PatientPosition>HFS</PatientPosition>
+    <TubePosition>Top</TubePosition>
+    <ScanLength>120</ScanLength>
+    <TableStartPosition>0</TableStartPosition>
+    <TableEndPosition>60</TableEndPosition>
+    <TableHeight>0.0</TableHeight>
+    <DelayTime>0</DelayTime>
+    <ScanMode>Spiral</ScanMode>
+    <BinningMode>1x1</BinningMode>
+    <ExpMode>Single point</ExpMode>
+    <FrameNum>1080</FrameNum>
+    <FrameTime>10</FrameTime>
+    <ExpTime>6</ExpTime>
+    <OverSample>0</OverSample>
+    <Pitch>1.0</Pitch>
+    <AngleSpeed>274</AngleSpeed>
+    <ExpSum>0</ExpSum>
+    <TableSpeed>4</TableSpeed>
+    <ReconJob>
+      <SeriesDescription>Rcon Head1</SeriesDescription>
+      <SliceThickness>0.50</SliceThickness>
+      <Kernel>BLACKMAN</Kernel>
+      <Window>Heade</Window>
+      <Width>512</Width>
+      <Height>512</Height>
+      <Increment>10</Increment>
+      <WindowCenter>-800</WindowCenter>
+      <WindowWidth>400</WindowWidth>
+      <ImageOrder>Head-Foot</ImageOrder>
+      <VoxelSizeXY>0.656</VoxelSizeXY>
+      <DenoiseCoef>20</DenoiseCoef>
+      <FOV>350.0</FOV>
+      <Center-X>0</Center-X>
+      <Center-Y>0</Center-Y>
+      <ProtocolType>0</ProtocolType>
+    </ReconJob>
+  </ScanEntry>
+  <ScanEntry ScanType="Topo">
+    <ScanRange>Topogram</ScanRange>
+    <MA>60</MA>
+    <KV>80</KV>
+    <ScanDirection>Head-Foot</ScanDirection>
+    <PatientPosition>HFS</PatientPosition>
+    <TubePosition>Top</TubePosition>
+    <ScanLength>512</ScanLength>
+    <TableStartPosition>800</TableStartPosition>
+    <TableEndPosition>1100</TableEndPosition>
+    <TableHeight>0.0</TableHeight>
+    <DelayTime>0</DelayTime>
+    <ScanMode>Topogram</ScanMode>
+    <BinningMode>1x1</BinningMode>
+    <ExpMode>Independent</ExpMode>
+    <FrameNum>360</FrameNum>
+    <FrameTime>100</FrameTime>
+    <ExpTime>10</ExpTime>
+    <OverSample>0</OverSample>
+    <Pitch>1.0</Pitch>
+    <AngleSpeed>274</AngleSpeed>
+    <ExpSum>0</ExpSum>
+    <TableSpeed>60</TableSpeed>
+    <ReconJob>
+      <SeriesDescription>Rcon top1</SeriesDescription>
+      <SliceThickness>0.16</SliceThickness>
+      <Kernel>BLACKMAN</Kernel>
+      <Window>Heade</Window>
+      <Width>512</Width>
+      <Height>512</Height>
+      <Increment>10</Increment>
+      <WindowCenter>600</WindowCenter>
+      <WindowWidth>520</WindowWidth>
+      <ImageOrder>Head-Foot</ImageOrder>
+      <VoxelSizeXY>0.328</VoxelSizeXY>
+      <DenoiseCoef>20</DenoiseCoef>
+      <FOV>350.0</FOV>
+      <Center-X>0</Center-X>
+      <Center-Y>0</Center-Y>
+      <ProtocolType>0</ProtocolType>
+    </ReconJob>
+  </ScanEntry>
+</Protocol>

@@ -1,0 +1,27 @@
+# Rules in this file were initially inferred by Visual Studio IntelliCode from the C:\Users\admin\Desktop\试验性测试\CTCommunication\Config\ codebase based on best match to current usage at 2020/9/9
+# You can modify the rules from these initially generated values to suit your own policies
+# You can learn more about editorconfig here: https://docs.microsoft.com/en-us/visualstudio/ide/editorconfig-code-style-settings-reference
+[*.cs]
+
+# http://editorconfig.org
+root = true
+
+[*]
+#缩进风格：空格
+indent_style = space
+#缩进大小2
+indent_size = 2
+#换行符lf
+end_of_line = lf
+#字符集utf-8
+charset = utf-8
+#是否删除行尾的空格
+trim_trailing_whitespace = true
+#是否在文件的最后插入一个空行
+insert_final_newline = true
+
+[*.md]
+trim_trailing_whitespace = false
+
+[Makefile]
+indent_style = tab

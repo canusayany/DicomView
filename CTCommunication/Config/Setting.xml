@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-16"?>
+<SettingData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DefaultPage>MRSTest</DefaultPage>
+  <setting_DicomTool>
+    <RawWidth>768</RawWidth>
+  </setting_DicomTool>
+  <setting_MRSTest>
+    <IP>172.168.1.1</IP>
+    <ScanStartPosition>800</ScanStartPosition>
+    <ScanEndPosition>500</ScanEndPosition>
+    <CmdChannelPort>10287</CmdChannelPort>
+    <DataChannelPort>10288</DataChannelPort>
+    <ControlChannelPort>10227</ControlChannelPort>
+    <HeartBeatSpan>5000</HeartBeatSpan>
+    <HeartBeatTimeOutTime>10000</HeartBeatTimeOutTime>
+  </setting_MRSTest>
+  <setting_FlowTest>
+    <IP>172.168.1.1</IP>
+    <ScanStartPosition>800</ScanStartPosition>
+    <ScanEndPosition>500</ScanEndPosition>
+    <CmdChannelPort>10087</CmdChannelPort>
+    <DataChannelPort>10088</DataChannelPort>
+    <ControlChannelPort>10027</ControlChannelPort>
+    <HeartBeatSpan>5000</HeartBeatSpan>
+    <HeartBeatTimeOutTime>10000</HeartBeatTimeOutTime>
+    <TirggerAccuracy>0.2</TirggerAccuracy>
+  </setting_FlowTest>
+  <setting_CanTest>
+    <BedMove_Position>1200</BedMove_Position>
+    <BedMove_Speed>90</BedMove_Speed>
+    <BedMove_Height>971</BedMove_Height>
+    <Box_LoopSpan>500</Box_LoopSpan>
+    <Panel_LoopSpan>500</Panel_LoopSpan>
+    <BedLoopMove_Position1>800</BedLoopMove_Position1>
+    <BedLoopMove_Position2>1200</BedLoopMove_Position2>
+    <BedLoopMove_Speed>80</BedLoopMove_Speed>
+    <BedLoopMove_Offset>0.5</BedLoopMove_Offset>
+  </setting_CanTest>
+</SettingData>
